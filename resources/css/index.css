@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+.header {
+    display: inline-flex;
+    height: 69px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.mission-section {
+    background-image: '../images/background.png';
+    height: 700px;
+}
+
+.mission-banner {
+    background-color: black;
+    align-items: center;
+}
