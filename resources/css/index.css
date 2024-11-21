@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     opacity: 0.9;
+    font-family: "Comic Sans MS";
 }
 
 .header {
@@ -15,11 +16,73 @@ body {
 }
 
 .mission-section {
-    background-image: '../images/background.png';
+    background-image: url("../images/background.png");
     height: 700px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
 }
 
 .mission-banner {
     background-color: black;
+    height: 100px;
+    width: 1200px;
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-subheading {
+    text-align: center;
+}
+
+.totm-section {
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.totm-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.totm-image {
+    width: 300px;
+    height: 200px;
+}
+
+.locations-section {
+    background-image: url("../images/locations.png");
+    height: 500px;
+    justify-content: center;
+}
+
+.locations {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.location-block {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.copyright{
+    text-align: left;
+}
+
+.footer {
+    height: 200px;
 }
